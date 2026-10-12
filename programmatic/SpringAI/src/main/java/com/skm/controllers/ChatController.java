@@ -12,8 +12,8 @@ public class ChatController {
 
     private final ChatClient chatClient;
 
-    public ChatController(ChatClient client) {
-        this.chatClient = client;
+    public ChatController(ChatClient chatClient) {
+        this.chatClient = chatClient;
     }
 
 

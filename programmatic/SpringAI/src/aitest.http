@@ -3,3 +3,6 @@ GET localhost:8080/api/chat?message="capital of usa"
 
 ###
 GET localhost:8080/api/prompt-stuffing?message="I used 5 paid leaves this year. How many will be forwarded to the next year"
+
+###
+GET localhost:8080/api/rag/random/chat?username="john"&message="who are you?"
