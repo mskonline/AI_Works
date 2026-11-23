@@ -11,10 +11,12 @@ import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.rag.advisor.RetrievalAugmentationAdvisor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.web.client.RestClient;
 
 import java.util.List;
 
+@Lazy
 @Configuration
 public class WebSearchRAGChatClientConfig {
 
